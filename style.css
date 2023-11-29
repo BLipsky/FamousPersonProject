@@ -1,0 +1,108 @@
+body {
+  background-image:radial-gradient(white,rgb(206, 206, 206),white);
+  background-size: 100%;
+}
+.box {
+  justify-content: center;
+  padding-top: 10px;
+}
+.box1 {
+  background-position: center bottom;
+  border: 3px solid rgb(238, 198, 124);
+  height: 250px;
+  margin-left: 30px;
+  border-radius: 2vw;
+  box-shadow: 0 0px 60px rgb(150, 100, 24);
+  height: 50vw;
+  background-image: url(CeaserAchievments.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.box2 {
+  background-position: center bottom;
+  height: 250px;
+  border-radius: 2vw;
+  box-shadow: 0 0px 60px rgb(150, 100, 24);
+  border: 3px solid rgb(238, 198, 124);
+  height: 50vw;
+  background-image: url(CeaserImpact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.box3 {
+  height: 250px;
+  margin-right: 30px;
+  border-radius: 2vw;
+  box-shadow: 0 0px 60px rgb(150, 100, 24);
+  border: 3px solid rgb(238, 198, 124);
+  height: 50vw;
+  background-image: url(CeaserLife.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.textb {
+  text-align: center;
+}
+.inv {
+  opacity: 0%;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  animation: flip 1s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+#abs {
+  position: absolute;
+  margin: auto;
+  top: 2vw;
+  left: 15vw;
+  font-size: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80vw;
+    top: 10vw;
+    filter: url(#threshold) blur(0.6px);
+    color: white;
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+
+    text-align: center;
+
+    user-select: none;
+}
