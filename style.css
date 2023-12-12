@@ -1,52 +1,49 @@
 body {
-  background-image:radial-gradient(white,rgb(206, 206, 206),white);
+  background-image:radial-gradient(rgb(104, 104, 104),rgb(168, 168, 168),rgb(158, 158, 158));
   background-size: 100%;
+  height: 100%;
 }
 .box {
   justify-content: center;
   padding-top: 10px;
 }
 .box1 {
-  background-position: center bottom;
+  background-position: center;
   border: 3px solid rgb(238, 198, 124);
-  height: 250px;
   margin-left: 30px;
   border-radius: 2vw;
-  box-shadow: 0 0px 60px rgb(150, 100, 24);
-  height: 50vw;
+  height: 30vw;
   background-image: url(CeaserAchievments.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  margin-bottom: 30px;
 }
 .box2 {
   background-position: center bottom;
-  height: 250px;
   border-radius: 2vw;
-  box-shadow: 0 0px 60px rgb(150, 100, 24);
   border: 3px solid rgb(238, 198, 124);
-  height: 50vw;
+  height: 30vw;
   background-image: url(CeaserImpact.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  margin-bottom: 30px;
 }
 .box3 {
-  height: 250px;
   margin-right: 30px;
   border-radius: 2vw;
-  box-shadow: 0 0px 60px rgb(150, 100, 24);
   border: 3px solid rgb(238, 198, 124);
-  height: 50vw;
+  height: 30vw;
   background-image: url(CeaserLife.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 30px;
 }
 .textb {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .inv {
   opacity: 0%;
@@ -70,25 +67,19 @@ body {
 
 
 #abs {
-  position: absolute;
   margin: auto;
-  top: 2vw;
-  left: 15vw;
-  font-size: 50px;
+  font-size: 8vw;
+  color: white;
+  text-shadow: 0vw 0vw 1vw rgb(109, 88, 19);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
-
-body {
-    margin: 0px;
-}
 
 #container {
     position: absolute;
     margin: auto;
     width: 100vw;
-    height: 80vw;
-    top: 10vw;
+    top: 13vw;
     filter: url(#threshold) blur(0.6px);
     color: white;
 }
@@ -98,11 +89,49 @@ body {
     position: absolute;
     width: 100%;
     display: inline-block;
-
     font-family: "Raleway", sans-serif;
-    font-size: 60px;
-
+    font-size: 10vw;
     text-align: center;
-
     user-select: none;
+    text-align: center;
+}
+.box67 {
+ background-color: black;  
+ border-radius: 3vw; 
+ width: 90vw;
+ margin-left: 5vw;
+ margin-top: 7vw;
+ text-align: center;
+ border: 0.4vw solid goldenrod;
+ box-shadow: inset  1vw 1vw 3vw rgb(151, 134, 25);
+ text-shadow: .5vw 1.5vw 2vw white;
+}
+#homebutton:hover {
+scale: 1.15;
+transition: 1.25s;
+transition-timing-function: ease-out;
+}
+#image__title1 {
+  opacity: 100%;
+  color: white;
+  text-shadow: .5vw 1.5vw 2vw rgb(0, 0, 0);
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 8vw;
+}
+#image__title2 {
+  opacity: 100%;
+  color: white;
+  text-shadow: .5vw 1.5vw 2vw rgb(0, 0, 0);
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 8vw;
+}
+#image__title3 {
+  opacity: 100%;
+  color: white;
+  text-shadow: .5vw 1.5vw 2vw rgb(0, 0, 0);
+  font-size: 7vw;
+  text-align: center;
+  margin-top: 8vw;
 }
